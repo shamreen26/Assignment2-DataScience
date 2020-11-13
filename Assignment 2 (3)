@@ -1,18 +1,16 @@
 # Questions 3:
 
-You have seen in the videos how powerful dictionary data structure is.
-In this assignment, given a number n, you have to write a program that generates a dictionary d which
+-You have seen in the videos how powerful dictionary data structure is.
+-In this assignment, given a number n, you have to write a program that generates a dictionary d which
 contains (i, i*i), where i is from 1 to n (both included).
-Then you have to just print this dictionary d.
+-Then you have to just print this dictionary d.
 
 Example:
-Input: 4
-will give output as
-{1: 1, 2: 4, 3: 9, 4: 16}
-Input Format:
-Take the number n in a single line.
-Output Format:
-Print the dictionary d in a single line.
+Input: 4 will give output as {1: 1, 2: 4, 3: 9, 4: 16}
+-Input Format:
+•Take the number n in a single line.
+-Output Format:
+•Print the dictionary d in a single line.
 
 Example:
 Input:
