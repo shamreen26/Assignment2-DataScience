@@ -10,7 +10,7 @@ my_list1 = [10, 20, 15, 68, 9, 56, 85, 95, 64, 58, 56, 32, 32]
 # int List create
 print("List of int :", my_list1)
 
-mixed_list = [10, 'Farzana', 20.0, "Chennai"]
+mixed_list = [10, "Farzana", 20.0, "Chennai"]
 print("Mixed list is :", mixed_list)
 
 print('#' * 50) 
@@ -35,7 +35,7 @@ print(my_list1[1])
 print(my_list1[:3])
 print(my_list1[3:])
 # print(my_list1.count())
-print('X'*50)
+print('#'*50)
 
 print(mixed_list)
 mixed_list.remove(mixed_list[2])
@@ -67,7 +67,7 @@ print(my_list)
 print("Unsorted list :",list)
 list.sort()
 print("Sorted list :",list)
-print('X'* 50)
+print('#'* 50)
 print("Sum of list  is :",sum(list))
 
 print("ASCII : :",ascii(list))
@@ -85,13 +85,13 @@ Counter({'am': 3, 'and': 2, 'i': 2, 'I': 1, 'Farzana': 1,'from': 1, 'Chennai': 1
 None
 20
 [10, 20, 15]
-[68, 9, 56, 85, 95, 64, 58, 56, 32, 32, [10, 'yogi', 20.0, 'Pune']]
+[68, 9, 56, 85, 95, 64, 58, 56, 32, 32, [10, 'Farzana', 20.0, 'Chennai']]
 ##################################################
-[10, 'yogi', 20.0, 'Pune']
-[10, 'yogi', 'Pune']
-[10, 'yogi', 'Pune', 'Teju']
-[10, 20, 15, 68, 9, 56, 85, 95, 64, 58, 56, 32, 32, [10, 'yogi', 'Pune', 'Teju'], 'Ashu']
-[10, 20, 15, 9, 56, 85, 95, 64, 58, 56, 32, 32, [10, 'yogi', 'Pune', 'Teju'], 'Ashu']
+[10, 'Farzana', 20.0, 'Chennai']
+[10, 'Farzana', 'Chennai']
+[10, 'Farzana', 'Chennai', 'Shameer']
+[10, 20, 15, 68, 9, 56, 85, 95, 64, 58, 56, 32, 32, [10, 'Farzana', 'Chennai', 'Shameer'], 'Muheed']
+[10, 20, 15, 9, 56, 85, 95, 64, 58, 56, 32, 32, [10, 'Farzana', 'Chennai', 'Shameer'], 'Muheed']
 ##################################################
 [13, 11, 1, 2, 20, 17]
 [13, 11, 1, 20, 17]
