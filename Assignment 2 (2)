@@ -12,18 +12,16 @@ print("List of int :", my_list1)
 
 mixed_list = [10, "Farzana", 20.0, "Chennai"]
 print("Mixed list is :", mixed_list)
-
 print('#' * 50) 
 
 # Indication purpose from collections import Counter...
 list = [1, 2, 3, 4, 5, 3, 2, 3, 4, 5, 6, 5, 4, 6, 7, 8, 9, 0, 7, 6, 5, 4, 6, 7, 7, 9]
 print(Counter(list))
-
 str = 'I am Farzana and i am from Chennai itself and i am doing final year computer science engineering'
 word_list = str.split()
-
 print(Counter(word_list))
 print('#'*50)
+
 print(my_list.append(10))
 print(my_list1.append(mixed_list))
 print(my_list1[1])
@@ -38,7 +36,6 @@ print(mixed_list)
 mixed_list.append("Shameer")
 my_list1.append("Muheed")
 print(mixed_list)
-
 print(my_list1)
 my_list1.remove(my_list1[3])
 print(my_list1)
@@ -51,7 +48,6 @@ my_list.append(2)
 my_list.append(20)
 my_list.append(17)
 print(my_list)
-
 my_list.remove(my_list[3])
 print(my_list)
 print("Unsorted list :",list)
